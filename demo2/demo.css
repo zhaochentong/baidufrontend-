@@ -1,0 +1,31 @@
+.box{
+	float: left;
+	width: 80px;
+	height: 80px;
+	margin-top: 40px;
+	margin-left: 90px;
+	border: 1px solid #999;
+	background: #eee;
+	text-align: center;
+	line-height: 50px;
+}
+
+.box1{
+	transform: skew(30deg,0);
+}
+
+.box2{
+	transform: scale(0.5,1);
+}
+
+.box3{
+	transform: rotate(45deg);
+}
+
+.box4{
+	transform: translate(30px, 30px);
+}
+
+.box5{
+	transform: skew(0, 45deg) translate(0,60px);
+}
